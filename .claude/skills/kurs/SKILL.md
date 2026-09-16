@@ -14,6 +14,22 @@ Willkommen in Woche 4. Diese Woche geht es um den vielleicht wichtigsten PM-Skil
 
 **Als Designerin oder Designer** ist das genauso deins: Was du lieferst — ein Designsystem, Farben, Abstände, Komponenten, Zustände einer Oberfläche — wird diese Woche selbst zur Spezifikation. Also zu etwas, gegen das gebaut *und* geprüft wird. Der altbekannte Satz „der Entwickler hat meine Abstände ignoriert" bekommt damit einen Haken: Steht das Design in der Eval, ist „passt nicht zum Design" ein FAIL wie jedes andere. Du kannst jeden Schritt hier auch durch die Design-Brille lesen — an den passenden Stellen sage ich dazu, worauf du besonders schauen kannst.
 
+**Kleines Beispiel für den Anfang (Design-Detail spezifizieren und prüfen lassen):** Ein Design-Detail schreibst du genauso auf und prüfst es genauso wie ein funktionales. Du legst zum Beispiel fest:
+
+```
+Akzentfarbe (Häufigkeit, aktive Elemente): #1A4FFF
+Karten: 8 px abgerundete Ecken
+```
+
+und machst daraus zwei Eval-Kriterien:
+
+```
+| D1 | Akzentfarbe stimmt | Farbwert im <style> der app.html ablesen | ist #1A4FFF | — |
+| D2 | Kartenform stimmt  | border-radius der Karte ablesen          | 8 px         | — |
+```
+
+Prüfen heißt dann: In der `app.html` stehen Farbe und Radius im Klartext im `<style>` — ablesen, mit deiner Vorgabe vergleichen, PASS / FAIL / UNKLAR setzen (oder den eval-runner genau das tun lassen). Genau dieses Muster wendest du gleich auf die echten Fälle an — so hast du einen Anhaltspunkt für deine erste eigene Design-Abnahme.
+
 Dieses Mal gibt es zwei Durchläufe:
 - **Durchlauf 1 (jetzt)**: geführt, mit Reflexionsfragen. Du schaust zu, prüfst, verstehst.
 - **Durchlauf 2 (danach)**: kein Kurs, kein Guide. Du machst so wie du denkst.
