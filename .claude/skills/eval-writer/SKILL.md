@@ -10,7 +10,7 @@ allowed-tools: Read, Write
 
 ## Was eine Eval ist
 
-Eine Eval ist eine Tabelle mit 8–12 pass/fail-Kriterien. Sie prüft ob der Prototyp die Spec erfüllt. Die Ergebnis-Spalte bleibt leer — die füllt der Mensch (oder der eval-runner).
+Eine Eval ist eine Tabelle mit 8–12 pass/fail-Kriterien. Sie prüft ob der Prototyp die Spec erfüllt. Die Ergebnis-Spalte wird mit **FAIL** vorbelegt — nichts gilt als bestanden, bis es geprüft ist. PASS (oder UNKLAR) setzt der Mensch bzw. der eval-runner erst beim Prüfen.
 
 ## Input
 
@@ -30,7 +30,7 @@ PASS = Bedingung ist erfüllt. FAIL = nicht erfüllt. UNKLAR = nicht aus Code od
 
 | ID | Kriterium | Wie testen | Pass-Bedingung | Ergebnis |
 |----|-----------|------------|----------------|----------|
-| E1 | ...       | ...        | ...            | —        |
+| E1 | ...       | ...        | ...            | FAIL     |
 ```
 
 ## Qualitätskriterien

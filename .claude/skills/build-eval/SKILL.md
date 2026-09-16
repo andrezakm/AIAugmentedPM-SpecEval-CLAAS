@@ -30,7 +30,7 @@ Prüfe mit Glob ob `input/[case]/eval.md` bereits existiert.
 | ID | Kriterium | Wie testen | Pass-Bedingung | Ergebnis |
 |----|-----------|------------|----------------|----------|
 
-Jedes Kriterium eindeutig pass/fail entscheidbar. Ergebnis-Spalte wird mit „—" vorbelegt.
+Jedes Kriterium eindeutig pass/fail entscheidbar. Ergebnis-Spalte wird mit FAIL vorbelegt — nichts gilt als bestanden, bis es geprüft ist.
 
 Verifiziere mit Glob, bevor du weitermachst.
 
