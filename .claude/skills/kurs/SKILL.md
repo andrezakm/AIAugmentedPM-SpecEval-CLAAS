@@ -111,6 +111,8 @@ Jetzt führst du den spec-writer selbst aus — auf demselben Brief:
 
 Der Agent schreibt eine neue Spec nach `input/case1/spec_generated.md`. Vergleiche sie mit der vorhandenen `input/case1/spec.md`.
 
+**Erwartungshaltung:** Zweck, Nutzer und Daten-Input sind meist fast deckungsgleich — die legt der Brief eng fest, da gibt es wenig Spielraum. Die interessanten Unterschiede stehen weiter unten: bei den UI-Komponenten im Detail, den Constraints und den Sonderfällen. Genau dort trifft eine Spec Ermessensentscheidungen — und dort lohnt der Vergleich.
+
 - Was ist gleich?
 - Was ist anders?
 - Welche Version ist besser — und warum?
