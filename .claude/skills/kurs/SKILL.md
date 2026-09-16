@@ -6,9 +6,15 @@ disable-model-invocation: true
 
 # Kurs: Woche 4 — Spec, Eval & Prototyp
 
-Willkommen in Woche 4. Du lernst heute den PM-Kernskill: ein Feature spezifizieren, Abnahmekriterien definieren, einen Prototypen bauen — und ihn evaluieren. Der Kurs hat 10 Schritte. Du navigierst mit "weiter" (nächster Schritt) oder "Schritt X" (direkt springen).
+Willkommen in Woche 4. Diese Woche geht es um den vielleicht wichtigsten PM-Skill überhaupt: aus einer Idee eine klare Beschreibung machen (die **Spec**), festlegen, wann sie erfüllt ist (die **Eval**), daraus einen lauffähigen Prototypen entstehen lassen und ihn dann prüfen. Nichts davon ist neu erfunden — neu ist nur, dass wir es so aufschreiben, dass dein Agent direkt danach arbeiten kann. Wir gehen das ganz in Ruhe durch, Schritt für Schritt. Du navigierst mit „weiter" (nächster Schritt) oder „Schritt X" (direkt springen). Frag jederzeit nach, wenn ein Begriff unklar ist — dafür ist das hier da.
 
-Dieses mal gibt es zwei Durchläufe:
+## Für wen ist das — und was hast du davon?
+
+**Als PM** beschreibst du ein Feature einmal so klar, dass du es nicht dreimal im Meeting erklären musst — und bekommst am Ende etwas, das du gegen deine eigenen, vorher notierten Kriterien prüfen kannst, statt auf ein Bauchgefühl zu vertrauen. Die Übergabe an Engineering wird ein sauberes Paket statt einer langen Diskussion.
+
+**Als Designerin oder Designer** ist das genauso deins: Was du lieferst — ein Designsystem, Farben, Abstände, Komponenten, Zustände einer Oberfläche — wird diese Woche selbst zur Spezifikation. Also zu etwas, gegen das gebaut *und* geprüft wird. Der altbekannte Satz „der Entwickler hat meine Abstände ignoriert" bekommt damit einen Haken: Steht das Design in der Eval, ist „passt nicht zum Design" ein FAIL wie jedes andere. Du kannst jeden Schritt hier auch durch die Design-Brille lesen — an den passenden Stellen sage ich dazu, worauf du besonders schauen kannst.
+
+Dieses Mal gibt es zwei Durchläufe:
 - **Durchlauf 1 (jetzt)**: geführt, mit Reflexionsfragen. Du schaust zu, prüfst, verstehst.
 - **Durchlauf 2 (danach)**: kein Kurs, kein Guide. Du machst so wie du denkst.
 
@@ -89,6 +95,8 @@ Vergleiche Eval mit Spec:
 - Sind alle Spec-Punkte in der Eval abgedeckt?
 - Welche Kriterien sind eindeutig pass/fail? Welche könnten "UNKLAR" werden?
 
+**Design-Brille:** Wenn du aus dem Design kommst — lies die Spec wie eine Übergabe an dich: Könntest du daraus eine Oberfläche skizzieren, ohne rückzufragen? Und in der Eval: Welche Kriterien würdest du ergänzen, damit auch Farben, Abstände und Zustände abgenommen werden, nicht nur die Funktion?
+
 **Reflexion:** Hättest du die Spec aus dem Brief so abgeleitet? Welchen Punkt hättest du anders formuliert?
 
 Sag "weiter" für Schritt 4.
@@ -157,6 +165,8 @@ Der Browser öffnet sich. Schau dir die App an. Klicke, filter, explore.
 - Entspricht sie dem was du in der Spec gelesen hast?
 - Was fällt im ersten Moment auf — positiv und negativ?
 - Was fehlt? Was ist überraschend gut?
+
+**Design-Brille:** Schau nicht nur, ob die Funktion der Spec entspricht, sondern auch, ob das Aussehen deiner Design-Vorstellung entspricht — Abstände, Farben, Zustände. Halte fest, was abweicht; das wird in Schritt 8 zu einem Abnahmekriterium.
 
 **Wenn etwas nicht stimmt:**
 1. Fehlermeldung in der Browser-Konsole (DevTools, Rechtsklick → "Untersuchen")? → Zeig sie deinem Agent: *"Ich bekomme diesen Fehler: [Fehler]"*
