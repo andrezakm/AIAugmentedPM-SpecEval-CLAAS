@@ -8,16 +8,16 @@
 
 ## Zweck
 
-NeoEmployee PMs sollen nach einem pattern-agent-Run die identifizierten Feedback-Cluster schnell sichten und nach Quelle filtern können — ohne eine Markdown-Datei manuell zu lesen.
+Ein Agent hat die Anforderungen und das Feedback der Stakeholder zu Themen-Clustern zusammengefasst. Die Cluster-Datei ist aber lang und unübersichtlich — NeoEmployee PMs sollen die Ergebnisse schnell sichten und nach Quelle filtern können, ohne die Markdown-Datei von Hand durchzulesen.
 
 ## Nutzer
 
-NeoEmployee PMs und Berater, 1–2 Personen, nach einem Analyse-Run. Technisches Niveau: mittel — können einen Terminalbefehl ausführen, keine Programmierkenntnisse nötig.
+NeoEmployee PMs und Berater:innen, 1–2 Personen, die mit dem Cluster-Ergebnis weiterarbeiten. Technisches Niveau: mittel — keine Programmierkenntnisse nötig.
 
 ## Daten-Input
 
 - Datei: `input/case1/data/clusters.md`
-- Format: Markdown mit Struktur aus dem pattern-agent
+- Format: Markdown mit Cluster-Struktur
 - Cluster-Struktur: `## Cluster N: [Name]`, darunter Häufigkeit, Zusammenfassung, Belege mit Quellenangabe
 - Quellen-Tags in Belegen: slack, email, interview, internal (aus Absender oder Dateiname erkennbar)
 
